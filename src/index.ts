@@ -9,7 +9,6 @@ function createStorage(storage: Storage = localStorage, prefixKey = '__naive_sto
 export function createLocalStorage() {
   if (!localInstance)
     localInstance = createStorage()
-
   return localInstance
 }
 
